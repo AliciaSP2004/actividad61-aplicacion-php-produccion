@@ -5,7 +5,7 @@
 services: 
 # Servicio 1: aplicación CRUD dockerizada. Utiliza la imagen construida en la fase de desarrollo : lumigv/lamp-crud-app:latest
   apache-php-crud:
-    image: lumigv/lamp-crud-app:latest
+    image: aliciasp2004/actividad61-aplicacion-crud-php:latest
     ports: 
       - 80:80
     environment: 
